@@ -1,3 +1,5 @@
+João Vitor Miranda Sousa - 14802702
+Fernando Shoji Ogusuku - 15636682
 ```bash
    58  git branch -M main
    59  # Empurra os arquivos para o GitHub
