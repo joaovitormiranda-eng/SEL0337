@@ -8,4 +8,4 @@ Autores:
 * Eduardo Yumoto Carvalheira -- N USP: 15636160
 
 Link do Repositorio no GitHub:
-https://github.com/joaovitormiranda-eng/SEL0337
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_2
