@@ -8,36 +8,39 @@
 
 ---
 
-## 📊 1. Resumo de Hardware e Sistema (`neofetch` / `pinout`)
+### 1. Resumo de Hardware e Sistema
 
+**Especificações Técnicas (Baseadas nas saídas de `neofetch` e `pinout`):**
 * **Placa:** Raspberry Pi 3 Model B Plus Rev 1.3
 * **SoC:** Broadcom BCM2837 / BCM2837B0
-* **Arquitetura & CPU:** ARMv8 (aarch64) Quad-Core Cortex-A53 @ 1.40 GHz
-* **Memória RAM:** 1 GB LPDDR2 (309 MiB em uso durante execução)
+* **Arquitetura e CPU:** ARMv8 (aarch64) Quad-Core Cortex-A53 @ 1.40 GHz
+* **Memória RAM:** 1 GB LPDDR2 (309 MiB em uso durante a execução)
 * **Kernel:** Linux 6.1.54-v8+
-* **Conectividade & Portas:** Wi-Fi 802.11ac, Bluetooth 4.2, 4x USB 2.0, Ethernet (300 Mbps max), 1x CSI (Câmera), 1x DSI (Display), Barramento GPIO de 40 pinos.
+* **Conectividade e Interfaces:** Wi-Fi 802.11ac, Bluetooth 4.2, 4x USB 2.0, Ethernet (300 Mbps máximo), 1x CSI (Câmera), 1x DSI (Display), Barramento GPIO de 40 pinos.
 
-### Requisito Chave para Rodar Linux Embarcado
-O requisito de hardware indispensável para executar um Sistema Operacional como o Linux é a **Unidade de Gerenciamento de Memória (MMU - Memory Management Unit)**. A MMU permite a tradução de endereços de memória virtual para física, isolamento de processos e proteção de memória entre o Kernel e o espaço de usuário. Microcontroladores tradicionais (como a família ARM Cortex-M ou PIC) não possuem MMU, apenas MPU (Memory Protection Unit) ou nenhuma unidade virtual, limitando-os à execução de código *bare-metal* ou RTOS simples.
-
----
-
-## ❓ 2. Questões Teóricas
-
-### Questão 1: Comparativo das Placas Raspberry Pi (3B+, 4B e 5)
-A Raspberry Pi 3B+ (SoC BCM2837B0, Cortex-A53 1.4GHz, 1GB RAM, USB 2.0) atende a aplicações embarcadas básicas. A Pi 4B evoluiu para o SoC BCM2711 (Cortex-A72 1.5-1.8GHz), trazendo opções de 2GB a 8GB LPDDR4, USB 3.0, Gigabit Ethernet nativa e portas Micro-HDMI duplas (4K). A Raspberry Pi 5 adota o SoC BCM2712 (Cortex-A76 2.4GHz), mais que dobrando a performance, com chip I/O RP1 dedicado, interface PCIe 2.0, botão de energia físico e suporte a RTC, eliminando os gargalos de barramento das gerações anteriores.
-
-### Questão 2: Comparativo de SoCs (Broadcom vs. Mercado)
-O BCM2837B0 traz 4x Cortex-A53 (1.4GHz) com GPU VideoCore IV. O BCM2711 evolui para 4x Cortex-A72 (1.5GHz) e GPU VideoCore VI com barramentos PCIe internos. O BCM2712 salta para 4x Cortex-A76 (2.4GHz) e GPU VideoCore VII com suporte PCIe 2.0 externo. 
-Comparando com o mercado: o **TI AM3358** (BeagleBone Black) foca em controle industrial em tempo real com 1x Cortex-A8 (1GHz) e 2x coprocessadores PRU de baixíssima latência; enquanto o **NXP i.MX6** (Módulo Toradex Colibri) prioriza confiabilidade automotiva/industrial com núcleos Cortex-A9, barramento CAN integrado e longo ciclo de vida do componente.
+**Requisito Fundamental para Execução de Linux Embarcado**
+O requisito de hardware indispensável para executar um Sistema Operacional de propósito geral, como o Linux, é a presença da Unidade de Gerenciamento de Memória (MMU - *Memory Management Unit*). A MMU é responsável pela tradução de endereços de memória virtual para física, garantindo o isolamento de processos e a proteção de memória entre o Kernel e o espaço de usuário. Microcontroladores tradicionais (como as famílias ARM Cortex-M ou PIC) não possuem MMU — contando, no máximo, com uma MPU (*Memory Protection Unit*) —, o que os limita à execução de aplicações *bare-metal* ou Sistemas Operacionais de Tempo Real (RTOS) mais restritos.
 
 ---
 
-## 📜 3. Registros de Execução e Saídas do Terminal
+### 2. Fundamentação Teórica
 
-Abaixo estão os registros extraídos diretamente da placa durante a execução da prática, comprovando a coleta de dados de hardware e rede.
+**Questão 1: Análise Comparativa das Gerações da Raspberry Pi (3B+, 4B e 5)**
+A Raspberry Pi 3B+ (equipada com o SoC BCM2837B0, Cortex-A53 a 1.4GHz, 1GB de RAM e USB 2.0) atende de forma satisfatória a aplicações embarcadas com requisitos básicos. A geração subsequente, Raspberry Pi 4B, apresentou um avanço significativo com a adoção do SoC BCM2711 (Cortex-A72 a 1.5-1.8GHz), introduzindo opções de memória de 2GB a 8GB LPDDR4, portas USB 3.0, Gigabit Ethernet nativa e saídas Micro-HDMI duplas com suporte a vídeo em 4K. Recentemente, a Raspberry Pi 5 adotou o SoC BCM2712 (Cortex-A76 a 2.4GHz), mais que dobrando a capacidade de processamento. Esta última versão também integrou o chip controlador de I/O RP1 dedicado, interface PCIe 2.0, botão de energia físico e suporte a RTC, mitigando consideravelmente os gargalos de barramento observados nas gerações passadas.
 
-### 3.1. Saída do comando `fastfetch` (Informações do Sistema)
+**Questão 2: Comparativo de SoCs (Broadcom em relação ao Mercado)**
+O modelo BCM2837B0 opera com 4 núcleos Cortex-A53 (1.4GHz) e GPU VideoCore IV. A evolução para o BCM2711 trouxe 4 núcleos Cortex-A72 (1.5GHz) e GPU VideoCore VI, incorporando barramentos PCIe internos. O modelo atual, BCM2712, avança para 4 núcleos Cortex-A76 (2.4GHz) e GPU VideoCore VII, adicionando suporte a PCIe 2.0 externo.
+Ao expandir a comparação para alternativas consolidadas no mercado industrial, destacam-se:
+* **TI AM3358 (BeagleBone Black):** Focado em controle industrial de tempo real, possui um núcleo Cortex-A8 (1GHz) operando em conjunto com dois coprocessadores PRU de baixíssima latência.
+* **NXP i.MX6 (Módulo Toradex Colibri):** Prioriza a confiabilidade em aplicações automotivas e industriais críticas, empregando núcleos Cortex-A9, barramento CAN integrado nativamente e oferecendo notável longevidade de fornecimento do componente no mercado.
+
+---
+
+### 3. Registros de Execução e Saídas do Terminal
+
+As listagens a seguir apresentam os dados extraídos diretamente da placa durante a execução da prática, documentando o ambiente de hardware e as configurações de rede ativas.
+
+#### 3.1. Informações do Sistema (`fastfetch`)
 ```text
 OS: Debian GNU/Linux 13 (trixie) aarch64
 Host: Raspberry Pi 3 Model B Plus Rev 1.3
@@ -52,7 +55,7 @@ Disk (/): 5.96 GiB / 27.86 GiB (21%) - ext4
 Local IP (wlan0): 192.168.1.103/24
 ```
 
-### 3.2. Saída do comando `pinout` (Mapa de Hardware)
+#### 3.2. Mapa de Hardware (`pinout`)
 ```text
 Description        : Raspberry Pi 3B+ rev 1.3
 Revision           : a020d3
@@ -67,15 +70,15 @@ Bluetooth          : True
  ,--------------------------------.
  | oooooooooooooooooooo J8 PoE +====
  | 1ooooooooooooooooooo   12   | USB
- |  Wi                    oo   +====
+ |  Wi                   oo    +====
  |  Fi  Pi Model 3B+ V1.3         |
- | |D     ,---.           1o   +====
- | |S     |SoC|            RUN | USB
- | |I     `---'                +====
- | |0               C|            |
- |                  S|       +======
- |                  I| |A|   |   Net
- |pwr      |HDMI|  0| |u|   +======
+ | |D      ,---.          1o   +====
+ | |S      |SoC|             RUN | USB
+ | |I      `---'                 +====
+ | |0                C|             |
+ |                   S|        +======
+ |                   I| |A|    |   Net
+ |pwr      |HDMI|  0| |u|    +======
  `-| |------|    |-----|x|--------'
 
     3V3  (1) (2)  5V    
@@ -100,7 +103,7 @@ Bluetooth          : True
     GND (39) (40) GPIO21
 ```
 
-### 3.3. Histórico Completo de Comandos (`history`)
+#### 3.3. Histórico de Comandos Executados (`history`)
 ```bash
     1  sudo passwd root
     2  clear
