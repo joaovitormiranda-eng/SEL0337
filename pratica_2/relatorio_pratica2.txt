@@ -3,7 +3,7 @@ Prática 2: Introdução à instalação de sistema operacional em sistemas
 embarcados
 
 Autores:
-* Joao Vitor Miranda Sousa -- N USP: 14802702
+* João Vitor Miranda Sousa -- N USP: 14802702
 * Fernando Shoji Ogusuku -- N USP: 15636682
 * Eduardo Yumoto Carvalheira -- N USP: 15636160
 
