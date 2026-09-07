@@ -5,7 +5,7 @@ embarcados
 Autores:
 * João Vitor Miranda Sousa -- N USP: 14802702
 * Fernando Shoji Ogusuku -- N USP: 15636682
-* Eduardo Yumoto Carvalheira -- N USP: 15636160
+* Eduardo Yumoto Carvalheira -- N USP: 15636150
 
 Link do Repositório no GitHub:
 https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_2

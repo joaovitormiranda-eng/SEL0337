@@ -4,7 +4,7 @@
 **Autores:**
 * João Vitor Miranda Sousa — Nº USP: 14802702
 * Fernando Shoji Ogusuku — Nº USP: 15636682
-* Eduardo Yumoto Carvalheira — Nº USP: 15636160 
+* Eduardo Yumoto Carvalheira — Nº USP: 15636150 
 
 ---
 
