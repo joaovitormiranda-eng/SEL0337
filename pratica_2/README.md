@@ -1,5 +1,5 @@
 # SEL0337 - Projetos em Sistemas Embarcados
-## Prática 2: Instalação e Configuração de SO em Sistemas Embarcados
+## Prática 2: Introdução à instalação de sistema operacional em sistemas embarcados
 
 **Autores:**
 * João Vitor Miranda Sousa — Nº USP: 14802702
