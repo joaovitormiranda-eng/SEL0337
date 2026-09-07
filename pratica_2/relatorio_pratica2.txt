@@ -7,5 +7,5 @@ Autores:
 * Fernando Shoji Ogusuku -- N USP: 15636682
 * Eduardo Yumoto Carvalheira -- N USP: 15636160
 
-Link do Repositorio no GitHub:
+Link do Repositório no GitHub:
 https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_2
