@@ -1,0 +1,10 @@
+SEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Checkpoint 2
+
+Autores:
+* João Vitor Miranda Sousa -- N USP: 14802702
+* Fernando Shoji Ogusuku -- N USP: 15636682
+* Eduardo Yumoto Carvalheira -- N USP: 15636150
+
+Link direto para o Checkpoint 2 no GitHub:
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_3/checkpoint_2
