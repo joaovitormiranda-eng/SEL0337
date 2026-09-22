@@ -1,109 +1,17 @@
-    1  quit
-    2  cd ..
-    3  cd Checkpoint2
-    4  ls
-    5  cd ..
-    6  cd Checkpoint1
-    7  ls
-    8  nano led_button.py 
-    9  ls
-   10  cd ..
-   11  cd Checkpoint2
-   12  ls
-   13  nano pwmLed.py 
-   14  ls
-   15  cd ..
-   16  cd Checkpoint1
-   17  ls
-   18  nano led_button.py
-   19  python3 led_button.py 
-   20  python3 led_button.py
-   21  cd ..
-   22  git status
-   23  cd Checkpoint2
-   24  cd Projeto2
-   25  cd Checkpoint2
-   26  scp * 192.168.1.104@Matheus:~/
-   27  scp * Matheus@192.168.1.104:~/
-   28  python cp1a.py
-   29  source 6543/bin/activate
-   30  python cp1a.py
-   31  cd 6543
-   32  python cp1a.py
-   33  source 6543/bin/activate
-   34  cd 6543
-   35  python
-   36  nano cp1a.py
-   37  python
-   38  python cp1a.py
-   39  nano cp1a.py
-   40  python cp1a.py
-   41  nano cp1b.py
-   42  python cp1b.py
-   43  nano cp1b.py
-   44  python cp1b.py
-   45  nano cp1b.py
-   46  python cp1b.py
-   47  nano cp1b.py
-   48  python cp1b.py
-   49  nano cp1b.py
-   50  python cp1b.py
-   51  nano cp1b.py
-   52  s
-   53  nano cp1a.py
-   54  nano cp1b.py
-   55  python cp1b.py
-   56  nano cp1b.py
-   57  python cp1b.py
-   58  history > checkpoint1.txt
-   59  pwd
-   60  cd 
-   61  pwd
-   62  ~mkdir -p pratica_3/checkpoint_
-   63  mkdir -p pratica_3/checkpoint_1
-   64  pwd
-   65  cd ~
-   66  mkdir -p ~/pratica_3/checkpont_1
-   67  pwd
-   68  cd ~/pratica_3/checkpoint_1
-   69  ls -la
-   70  lsblk -f
-   71  ls /media/sel
-   72  ls /media/sel/ESD-USB
-   73  cp /media/sel/ESD-USB/cp1_botao_led.py
-   74  cp /media/sel/ESD-USB/cp1_botao_led.py .
-   75  cp /media/sel/ESD-USB/cp1_contagem_regressiva.py .
-   76  ls -la
-   77  python3 --version
-   78  pip3 --version
-   79  cd ~
-   80  python3 -m venv 028250
-   81  source ~/028250/bin/activate
-   82  pip freeze
-   83  python3 -c "import RPi.GPIO as GPIO ; print('RPi.GPIO OK')"
-   84  cd ~/pratica_3/checkpoint_1
-   85  pwd
-   86  ls -la
-   87  sudo poweroff
-   88  history | -n 100
-   89  history | tail -n 100
-   90  history -a
-   91  history > ~/pratica_3/checkpoint_1/historico_checkpoint1.txt
-   92  cd ~/pratica_3/checkpoint_1
-   93  source ~/028250/bin/activate
-   94  ls
-   95  python3 cp1_botao_led.py
-   96  python -c "import RPi.GPIO as GPIO, tima; GPIO,setmode(GPIO.BCM); GPIO.setup(17,GPIO.out); GPIO.output(17, GPIO.HIGH); time.sleep(5); GPIO.output(17,GPIO.LOW); GPIO.cleanup()"
-   97  python3 cp1_botao_led.py
-   98  history > ~/pratica_3/checkpoint_1/historico_checkpoint1.txt
-   99  ls -la
-  100  python3 cp1_contagem_regressiva.py
-  101  history -a
-  102  history > ~/pratica_3/checkpoint_1/historico_checkpoint1.txt
-  103  taisl -n 30 historico_checkpoint1.txt
-  104  tail -n 30 historico_checkpoint1.txt
-  105  history -a
-  106  history > /media/sel/ESD-USB/historico_checkpoint1.txt
+SEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Checkpoint 2
+
+Histórico de comandos executados pelo grupo durante a realização da atividade.
+As entradas anteriores ao comando 107 correspondem a sessões anteriores e ao
+Checkpoint 1, portanto foram removidas deste arquivo.
+
+Autores:
+João Vitor Miranda Sousa - N USP: 14802702
+Fernando Shoji Ogusuku - N USP: 15636682
+Eduardo Yumoto Carvalheira - N USP: 15636150
+
+----------------------------------------------------------------------
+
   107  ls -lh /media/sel/ESD-USB
   108  ls /media/sel/ESD-USB
   109  source ~/028250/bin/activate

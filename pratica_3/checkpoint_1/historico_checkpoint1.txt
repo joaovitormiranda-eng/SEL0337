@@ -1,61 +1,16 @@
-    1  quit
-    2  cd ..
-    3  cd Checkpoint2
-    4  ls
-    5  cd ..
-    6  cd Checkpoint1
-    7  ls
-    8  nano led_button.py 
-    9  ls
-   10  cd ..
-   11  cd Checkpoint2
-   12  ls
-   13  nano pwmLed.py 
-   14  ls
-   15  cd ..
-   16  cd Checkpoint1
-   17  ls
-   18  nano led_button.py
-   19  python3 led_button.py 
-   20  python3 led_button.py
-   21  cd ..
-   22  git status
-   23  cd Checkpoint2
-   24  cd Projeto2
-   25  cd Checkpoint2
-   26  scp * 192.168.1.104@Matheus:~/
-   27  scp * Matheus@192.168.1.104:~/
-   28  python cp1a.py
-   29  source 6543/bin/activate
-   30  python cp1a.py
-   31  cd 6543
-   32  python cp1a.py
-   33  source 6543/bin/activate
-   34  cd 6543
-   35  python
-   36  nano cp1a.py
-   37  python
-   38  python cp1a.py
-   39  nano cp1a.py
-   40  python cp1a.py
-   41  nano cp1b.py
-   42  python cp1b.py
-   43  nano cp1b.py
-   44  python cp1b.py
-   45  nano cp1b.py
-   46  python cp1b.py
-   47  nano cp1b.py
-   48  python cp1b.py
-   49  nano cp1b.py
-   50  python cp1b.py
-   51  nano cp1b.py
-   52  s
-   53  nano cp1a.py
-   54  nano cp1b.py
-   55  python cp1b.py
-   56  nano cp1b.py
-   57  python cp1b.py
-   58  history > checkpoint1.txt
+SEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Checkpoint 1
+
+Histórico de comandos executados pelo grupo durante a realização da atividade.
+As entradas anteriores ao comando 59 pertenciam a sessões de outros usuários do laboratório
+e foram removidas deste arquivo.
+
+Autores:
+João Vitor Miranda Sousa - N USP: 14802702
+Fernando Shoji Ogusuku - N USP: 15636682
+Eduardo Yumoto Carvalheira - N USP: 15636150
+
+----------------------------------------------------------------------
    59  pwd
    60  cd 
    61  pwd
