@@ -1,0 +1,43 @@
+]633;E;cat <<'EOF'\x0aSEL0337 - Projetos em Sistemas Embarcados\x0aPrática 3 - Checkpoint 3\x0a\x0aHistórico de comandos do terminal utilizado para preparação do ambiente,\x0acópia do script e execução da aplicação do Checkpoint 3.\x0a\x0aAs entradas anteriores ao comando 348 pertenciam a sessões anteriores\x0ada Raspberry Pi compartilhada no laboratório e foram removidas deste arquivo.\x0a\x0aAutores:\x0aJoão Vitor Miranda Sousa - N USP: 14802702\x0aFernando Shoji Ogusuku - N USP: 15636682\x0aEduardo Yumoto Carvalheira - N USP: 15636150\x0a\x0a----------------------------------------------------------------------\x0a\x0aEOF\x0a;05566f45-0e14-4cd4-a645-498b4ce1a2e5]633;CSEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Checkpoint 3
+
+Histórico de comandos do terminal utilizado para preparação do ambiente,
+cópia do script e execução da aplicação do Checkpoint 3.
+
+As entradas anteriores ao comando 348 pertenciam a sessões anteriores
+da Raspberry Pi compartilhada no laboratório e foram removidas deste arquivo.
+
+Autores:
+João Vitor Miranda Sousa - N USP: 14802702
+Fernando Shoji Ogusuku - N USP: 15636682
+Eduardo Yumoto Carvalheira - N USP: 15636150
+
+----------------------------------------------------------------------
+
+  348  lsblk -f
+  349  ls /media/sel
+  350  ls -lh /media/sel/ESD-USB
+  351  cd ~
+  352  source ~/028250/bin/activate
+  353  pip freeze
+  354  mkdir ~p ~/pratica_3/
+  355  mldir ~p ~/pratica_3/checkpoint_3
+  356  mkdir ~p ~/pratica_3/checkpoint_3
+  357  cd ~/pratica_3/checkpoint_3
+  358* pwd.txt
+  359  cp /media/sel/ESD-USB/cp3_threads_gpio.py
+  360  python3 cp3_threads_gpio.py
+  361  nano cp3_threads_gpio.py
+  362  cd home
+  363  source ~/028250/bin/activate
+  364  python3 cp3_threads_gpio.py
+  365  nano cp3_threads_gpio.py
+  366  python3 cp3_threads_gpio.py
+  367  nano cp3_threads_gpio.py
+  368  python3 cp3_threads_gpio.py
+  369  nano cp3_threads_gpio.py
+  370  python3 cp3_threads_gpio.py
+  371  nano cp3_threads_gpio.py
+  372  python3 cp3_threads_gpio.py
+  373  history -a
+  374  history > ~/pratica_3/checkpoint_3/historico_terminal2.txt

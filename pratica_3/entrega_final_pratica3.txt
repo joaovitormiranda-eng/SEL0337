@@ -1,0 +1,13 @@
+SEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Entrega final
+
+Integrantes:
+João Vitor Miranda Sousa - NUSP 14802702
+Fernando Shoji Ogusuku - NUSP 15636682
+Eduardo Yumoto Carvalheira - NUSP 15636150
+
+Documentação final e arquivos dos três checkpoints:
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_3
+
+Script principal do Checkpoint 3:
+https://github.com/joaovitormiranda-eng/SEL0337/blob/main/pratica_3/checkpoint_3/cp3_threads_gpio.py

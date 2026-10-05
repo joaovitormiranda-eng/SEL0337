@@ -1,0 +1,45 @@
+]633;E;cat <<'EOF'\x0aSEL0337 - Projetos em Sistemas Embarcados\x0aPrática 3 - Checkpoint 3\x0a\x0aHistórico de comandos do terminal utilizado para monitoramento de\x0aprocessos, threads e afinidade de CPU durante a realização do Checkpoint 3.\x0a\x0aAs entradas anteriores ao comando 348 pertenciam a sessões anteriores\x0ada Raspberry Pi compartilhada no laboratório e foram removidas deste arquivo.\x0a\x0aAutores:\x0aJoão Vitor Miranda Sousa - N USP: 14802702\x0aFernando Shoji Ogusuku - N USP: 15636682\x0aEduardo Yumoto Carvalheira - N USP: 15636150\x0a\x0a----------------------------------------------------------------------\x0a\x0aEOF\x0a;05566f45-0e14-4cd4-a645-498b4ce1a2e5]633;CSEL0337 - Projetos em Sistemas Embarcados
+Prática 3 - Checkpoint 3
+
+Histórico de comandos do terminal utilizado para monitoramento de
+processos, threads e afinidade de CPU durante a realização do Checkpoint 3.
+
+As entradas anteriores ao comando 348 pertenciam a sessões anteriores
+da Raspberry Pi compartilhada no laboratório e foram removidas deste arquivo.
+
+Autores:
+João Vitor Miranda Sousa - N USP: 14802702
+Fernando Shoji Ogusuku - N USP: 15636682
+Eduardo Yumoto Carvalheira - N USP: 15636150
+
+----------------------------------------------------------------------
+
+  348  pgrep -af cp3_threads_gpio.py
+  349  ps aux | grep "$PID"
+  350  ps -T -p "$PID"
+  351  taskset -cp 2 "$PID"
+  352  pgrep -af cp_threads_gpio.py
+  353  cd ..
+  354  pgrep -af cp_threads_gpio.py
+  355  pgrep -af cp3_threads_gpio.py
+  356  PID=1748
+  357  echo $PID
+  358  ps -T -p "$PID"
+  359  taskset -cp "$PID"
+  360  taskset -cp 2 "$PID"
+  361  taskset -cp "$PID"
+  362  top -H -p "$PID"
+  363  q
+  364  taskset -cp 1748
+  365  cd ~/pratica_3_checkpoint+3
+  366  cd ~/pratica_3_checkpoint3
+  367  cd ~/pratica_3/checkpoint3
+  368  cd ~/pratica_3/checkpoint_3
+  369  source ~/028250/bin/activate
+  370  python3 cp3_threads_gpio.py
+  371  history -a
+  372  history > ~pratica_3/checkpoint_3/historico_terminal1.txt
+  373  mkdir -p  ~/pratica_3/checkpoint_3
+  374  history -a
+  375  history > ~pratica_3/checkpoint_3/historico_terminal1.txt
+  376  history > ~/pratica_3/checkpoint_3/historico_terminal1.txt
