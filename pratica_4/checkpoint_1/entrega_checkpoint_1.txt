@@ -1,0 +1,14 @@
+SEL0337 - Projetos em Sistemas Embarcados
+Prática 4 - Checkpoint 1
+
+Integrantes:
+João Vitor Miranda Sousa - NUSP 14802702
+Fernando Shoji Ogusuku - NUSP 15636682
+Eduardo Yumoto Carvalheira - NUSP 15636150
+
+Repositório do Checkpoint 1:
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_4/checkpoint_1
+
+Arquivos principais:
+- cp1_raspberry_i2c_led.py
+- cp1_arduino_i2c_led.ino
