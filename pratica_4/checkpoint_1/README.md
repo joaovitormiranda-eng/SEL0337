@@ -1,6 +1,6 @@
 # Prática 4 — Checkpoint 1
 
-**Disciplina:** SEL0337 — Projetos em Sistemas Embarcados
+**Disciplina:** SEL0337 — Projetos em Sistemas Embarcados  
 **Tema:** Comunicação I2C entre Raspberry Pi e Arduino Uno
 
 | Integrante | NUSP |
@@ -164,6 +164,19 @@ O Checkpoint 1 foi validado experimentalmente com os seguintes resultados:
 - comando `0` desligando o `LED_BUILTIN`;
 - mensagens de funcionamento apresentadas no monitor serial;
 - comunicação realizada com interface elétrica adequada entre 3,3 V e 5 V.
+
+### Requisitos do checkpoint
+
+| Requisito | Evidência |
+|---|---|
+| Arduino detectado no barramento I2C | `i2cdetect` identificando `0x08` |
+| Raspberry Pi envia comandos via I2C | Script `cp1_raspberry_i2c_led.py` |
+| Arduino recebe e interpreta os comandos | Script `cp1_arduino_i2c_led.ino` e monitor serial |
+| Comando `1` acende o `LED_BUILTIN` | Validado experimentalmente |
+| Comando `0` apaga o `LED_BUILTIN` | Validado experimentalmente |
+| Uso de `SMBus` na Raspberry Pi | Implementado no script Python |
+| Uso de `Wire` no Arduino | Implementado no sketch Arduino |
+
 
 ## 7. Estrutura dos arquivos
 
