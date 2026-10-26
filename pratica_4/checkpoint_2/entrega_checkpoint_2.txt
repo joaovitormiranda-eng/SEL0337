@@ -1,0 +1,16 @@
+SEL0337 - PROJETOS EM SISTEMAS EMBARCADOS
+PRATICA 4 - CHECKPOINT 2
+
+Integrantes:
+Joao Vitor Miranda Sousa - NUSP 14802702
+Fernando Shoji Ogusuku - NUSP 15636682
+Eduardo Yumoto Carvalheira - NUSP 15636150
+
+Repositorio do Checkpoint 2:
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_4/checkpoint_2
+
+Arquivos principais:
+- cp2_arduino_i2c_pot.ino
+- cp2_raspberry_i2c_pot.py
+- README.md (documentacao e evidencias experimentais)
+- imagens/ (fotografias e capturas de tela)
