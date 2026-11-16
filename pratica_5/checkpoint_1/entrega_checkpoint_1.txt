@@ -1,0 +1,15 @@
+SEL0337 — Projetos em Sistemas Embarcados
+Prática 5 — Checkpoint 1 — Entrega via GitHub
+
+Integrantes:
+João Vitor Miranda Sousa — NUSP 14802702
+Fernando Shoji Ogusuku — NUSP 15636682
+Eduardo Yumoto Carvalheira — NUSP 15636150
+
+README / documentação:
+https://github.com/joaovitormiranda-eng/SEL0337/blob/main/pratica_5/checkpoint_1/README.md
+
+Diretório com os scripts Python, unidade de serviço e evidências:
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_5/checkpoint_1
+
+Os arquivos estão disponíveis após publicação do respectivo commit na branch main.

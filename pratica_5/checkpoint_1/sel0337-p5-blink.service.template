@@ -1,0 +1,16 @@
+[Unit]
+Description=SEL0337 - Pratica 5 CP1 - LED GPIO18
+After=local-fs.target
+
+[Service]
+Type=simple
+User=@USER@
+WorkingDirectory=@CHECKPOINT_DIR@
+ExecStart=@PYTHON@ -u @CHECKPOINT_DIR@/blink_python.py
+ExecStop=@PYTHON@ -u @CHECKPOINT_DIR@/stop_notice.py
+Restart=on-failure
+RestartSec=2
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
