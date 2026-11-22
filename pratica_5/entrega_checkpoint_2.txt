@@ -1,10 +1,36 @@
-SEL0337 - Projetos em Sistemas Embarcados
-Prática 3 - Checkpoint 2
+SEL0337 — PROJETOS EM SISTEMAS EMBARCADOS
+PRÁTICA 5 — ENTREGA FINAL (CHECKPOINT 2 E DOCUMENTAÇÃO NO GITHUB)
 
-Autores:
-* João Vitor Miranda Sousa -- N USP: 14802702
-* Fernando Shoji Ogusuku -- N USP: 15636682
-* Eduardo Yumoto Carvalheira -- N USP: 15636150
+INTEGRANTES
+João Vitor Miranda Sousa — NUSP 14802702
+Fernando Shoji Ogusuku — NUSP 15636682
+Eduardo Yumoto Carvalheira — NUSP 15636150
 
-Link direto para o Checkpoint 2 no GitHub:
-https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_3/checkpoint_2
+1. README ESPECÍFICO DA ENTREGA FINAL — CHECKPOINT 2
+https://github.com/joaovitormiranda-eng/SEL0337/blob/main/pratica_5/checkpoint_2/README.md
+
+2. ÍNDICE DA PRÁTICA 5 — INTEGRAÇÃO DOS CHECKPOINTS
+https://github.com/joaovitormiranda-eng/SEL0337/blob/main/pratica_5/README.md
+
+3. DOCUMENTAÇÃO, CÓDIGOS E EVIDÊNCIAS DO CHECKPOINT 1
+https://github.com/joaovitormiranda-eng/SEL0337/tree/main/pratica_5/checkpoint_1
+
+4. HISTÓRICO REAL DE COMMITS — ARQUIVO TXT
+https://github.com/joaovitormiranda-eng/SEL0337/blob/main/pratica_5/historico_git.txt
+
+5. REPOSITÓRIO DA DISCIPLINA
+https://github.com/joaovitormiranda-eng/SEL0337
+
+RESUMO DA ENTREGA
+No Checkpoint 1, foi implementado e validado na Raspberry Pi um serviço
+systemd para inicialização automática de um programa Python de controle
+de LED, incluindo testes de funcionamento após a reinicialização do sistema.
+
+O Checkpoint 2 apresenta a documentação integrada do projeto e a
+continuidade do uso de Git e GitHub pelo grupo desde as primeiras
+atividades da SEL0337. O README específico registra os procedimentos
+realizados, os conceitos envolvidos e as evidências obtidas no laboratório.
+
+O arquivo historico_git.txt, disponível no item 4, apresenta o histórico
+real de commits do repositório, documentando a evolução das atividades
+desde a Prática 1 até a entrega final da Prática 5.
