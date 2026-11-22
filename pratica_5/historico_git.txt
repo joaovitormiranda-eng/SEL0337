@@ -1,0 +1,147 @@
+commit 643960ddd4e1f646765deafbd04e88e111a9ef7a
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Sun Nov 22 14:51:35 2026 -0300
+
+    docs: documenta checkpoint 2 e continuidade do versionamento da SEL0337
+
+commit 2e9c10e9bfab7564c04e242137630b0a04cdf3b0
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Nov 16 13:20:41 2026 -0300
+
+    feat: finaliza checkpoint 1 da pratica 5 com systemd e evidencias
+
+commit 6acc5ae1f006285232c585ce7823f5041f7d75d2
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Oct 26 20:12:53 2026 -0300
+
+    feat: finaliza checkpoint 2 da pratica 4 com ADC, I2C e testes
+
+commit 55ca11ff8ca7fdcd0852e4ebbd60472f7eb5c531
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Oct 19 20:15:05 2026 +0000
+
+    Delete pratica_4/checkpoint_1/README_pratica_4_checkpoint_1.md
+
+commit 032b42c27dfb7abb8e17cf9a988123229ca4a3f7
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Sun Oct 18 22:24:22 2026 -0300
+
+    README final
+
+commit a77ee9ad10b8cc5738ab85b337413ce35a4d4365
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Sun Oct 18 22:21:45 2026 -0300
+
+    README final
+
+commit 4aa30b17b2997bdc58d6337523d6545e47b17f9a
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Sun Oct 18 22:19:08 2026 -0300
+
+    Finaliza checkpoint 1 da pratica 4 com comunicacao I2C
+
+commit 29d39b2783ffeb1a70cf645e551f992909ba9a3e
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Oct 5 11:16:38 2026 -0300
+
+    Finaliza pratica 3 com checkpoint 3 e documentacao
+
+commit 71bb7b5eccd78960cb728baffdc3238db67640a7
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 28 17:15:14 2026 -0300
+
+    Finaliza checkpoint 2 com codigos, README e evidencias
+
+commit 06ea22b26477411a3adfb640ff9b495bcb7a1e11
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 21 22:01:56 2026 -0300
+
+    Organiza historicos dos checkpoints 1 e 2
+
+commit f2e2072e4ca2abf1667d5dfb8d25b757d5d1a4e6
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 21 21:45:43 2026 -0300
+
+    Adiciona checkpoints 1 e 2 da pratica 3
+
+commit 7a2de9bfd6de37410c580f8a16522b4bf85f5484
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:59:35 2026 -0300
+
+    atualiza nusp eduardo 15636150
+
+commit d57fda88989084f99a4d4e7fa41fdb5138f6a0c8
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:56:11 2026 -0300
+
+    acento em repositório
+
+commit 4db40e24da3602d57fbea647ba559b50d550b36a
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:53:58 2026 -0300
+
+    Nome estava Joao e é João
+
+commit 9646ec181f8472908ad117f9006eb69a4af060fe
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:41:11 2026 -0300
+
+    corrige repositório prática 2
+
+commit fd82728696063761e2ab64d28485b903ca0f1b66
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:39:30 2026 -0300
+
+    docs: simplifica relatorio_pratica2.txt para conter apenas autores e link
+
+commit e636005bc03983c327069bed26d0916109c47591
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:31:16 2026 -0300
+
+    docs: atualiza relatorio da pratica 2 e adiciona historico.txt
+
+commit 886d321fe26a925159203fa8f48307a4ce1239a2
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Sep 7 14:07:57 2026 -0300
+
+    Revise hardware specs and theoretical analysis sections
+    
+    Updated hardware specifications and theoretical questions in README.
+
+commit 18ae717010701909aba477bf904344c8b232b567
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Fri Sep 4 15:47:33 2026 -0300
+
+    docs: gera arquivo .txt para submissao oficial
+
+commit 99665e4a0dd413325cf0c9237cd6c347de5a9bae
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Fri Sep 4 15:43:02 2026 -0300
+
+    docs: adiciona relatorio completo da Pratica 2
+
+commit 839745c8095d2982b650e323b6019441039eb6db
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Aug 24 13:56:18 2026 -0300
+
+    Add GitHub link to copia.txt
+
+commit a64fa53efab911176f2833fcd5eead3918e1fe77
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Aug 24 13:55:37 2026 -0300
+
+    Update README with student information
+    
+    Added student names and IDs to the README.
+
+commit 2b1a5bc379b31b4e31820fa19a244865736258ea
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Mon Aug 24 13:04:09 2026 -0300
+
+    Add authors to README.md
+
+commit 5801a6627efd1dd43a870e4a809970a6d2256baa
+Author: João Vitor Miranda Sousa <joaovitormonica87@gmail.com>
+Date:   Sun Aug 23 23:39:28 2026 -0300
+
+    docs: entrega oficial da Pratica 1 - SEL0337 (João e Fernando)
